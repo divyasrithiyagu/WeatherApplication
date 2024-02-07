@@ -1,0 +1,158 @@
+/*.container{
+    width: 607px;
+    height: 829px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+    gap: 14px;
+    width: 300px;
+    padding-top: 60px;
+}
+.top-bar input{
+    display: flex;
+    width: 362px;
+    height: 78px;
+    background: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    columns: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 78px;
+    height: 78px;
+    background: #ebfffc;
+    border-radius: 20px;
+    cursor: pointer;
+}*/
+/* WeatherApp.css */
+
+/*.weather-app {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+  }*/
+
+  /* WeatherApp.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tilte { /* Note: There's a typo here, it should be `.title` */
+  color: #333;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  backdrop-filter: blur(30px);
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.city-name {
+  font-size: 24px;
+  color: #333;
+}
+
+.weather-info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temp {
+  font-size: 40px;
+  color: #007bff;
+}
+
+.coordinate {
+  font-size: 16px;
+}
+
+/* If you correct the typo in your JSX for the title class, update the CSS accordingly */
+.title {
+  color: #333;
+  text-align: center;
+}
+
+  
